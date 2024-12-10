@@ -1,0 +1,31 @@
+.content span {
+    background-color: yellow;
+}
+
+.container>.item {
+    background-color: aqua;
+}
+
+.title+.description {
+    background-color: lightgreen;
+}
+
+.section~p {
+    background-color: blueviolet;
+}
+
+.content>.highlight {
+    background-color: aqua;
+}
+
+.heading~.description {
+    background-color: pink;
+}
+
+.menu>.menu-item {
+    background-color: aqua;
+}
+
+.sub-menu>.menu-item {
+    background-color: blueviolet;
+}

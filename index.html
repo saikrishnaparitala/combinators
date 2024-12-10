@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- Question: How would you select all <span> elements inside the .
+        content class using the descendant combinator?        -->
+    <div class="content">
+        <p>This is a paragraph.</p>
+        <span>This is a span inside content.</span>
+    </div>
+    <hr>
+    <!-- Question: How would you select the .item element that is a direct child of .
+    container using the child combinator? -->
+
+    <div class="container">
+        <div class="item">Item 1</div>
+        <br>
+        <div class="sub-item">Sub Item 1</div>
+    </div>
+    <hr>
+    <!-- Question: How would you style the first .description element that immediately follows a .
+    title element? -->
+    <div class="section">
+        <h2 class="title">Section Title</h2>
+        <p class="description">This is a description.</p>
+        <p class="description">Another description.</p>
+    </div>
+    <hr>
+    <!-- Question: Write a CSS rule to select all <p> elements that are siblings of the first .
+        note class within the .section class. -->
+
+    <div class="section">
+        <h2 class="h2">Header</h2>
+    </div>
+    <p class="note">This is a note.</p>
+    <p class="note">This is another note.</p>
+    <hr>
+    <!-- Write a CSS rule to select all .highlight class elements that are descendants of .
+    article and .content. -->
+    <div class="article">
+        <div class="content">
+            <p class="highlight">Highlighted text in content.</p>
+        </div>
+    </div>
+    <!-- How do you apply a style to all sibling <p> elements that follow an 
+        <h1> using the adjacent sibling combinator (+)? -->
+
+    <div id="header">
+        <h1 class="heading">Main Heading</h1>
+        <p class="description">First paragraph after the heading</p>
+        <p class="description">Second paragraph after the heading</p>
+        <div class="extra">Other content</div>
+    </div>
+    <hr>
+    <!-- How would you use the child combinator (>) 
+    to select only the direct child <ul> inside a <nav> element? -->
+
+    <nav class="navbar">
+        <ul class="menu">
+            <li class="menu-item">Item 1</li>
+            <li class="menu-item">Item 2</li>
+        </ul>
+        <div class="extra">
+            <ul class="sub-menu">
+                <li class="menu-item">Sub Item 1</li>
+            </ul>
+        </div>
+    </nav>
+
+</body>
+
+</html>
